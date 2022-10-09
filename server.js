@@ -38,6 +38,9 @@ cors_proxy.createServer({
 //     'x-forwarded-for',
 //     'x-forwarded-proto',
 //     'x-forwarded-port',
+        'x-heroku-queue-wait-time',
+        'x-heroku-queue-depth',
+        'x-heroku-dynos-in-use',
   ],
   redirectSameOrigin: true,
   httpProxyOptions: {
