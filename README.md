@@ -31,7 +31,7 @@ cors_proxy.createServer({
 });
 
 ```
-Request examples: 
+Request examples:
 
 * `http://localhost:8080/http://google.com/` - Google.com with CORS headers
 * `http://localhost:8080/google.com` - Same as previous.
